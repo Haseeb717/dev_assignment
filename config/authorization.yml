@@ -1,0 +1,8 @@
+development:
+  authorization_key: 'assignment123'
+
+test:
+  authorization_key: 'testing123'
+
+production:
+  authorization_key: <%= ENV["AUTHORIZATION_KEY"] %>

@@ -1,0 +1,1 @@
+APIKEYS = YAML.load_file(Rails.root.join('config', 'authorization.yml'))[Rails.env]
