@@ -18,4 +18,4 @@ Set or change authorization_key according to environemnts. For Production you ne
 rspec ./spec/controllers/location_controller_spec.rb
 
 
-* ...
+* To call an API , pass authorization_key in request headers according to config settings in config/authorization.yml
